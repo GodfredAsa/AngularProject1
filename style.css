@@ -1,0 +1,62 @@
+body, html{
+	margin: 0;
+	padding: 0;
+}
+.top-table{
+	margin: 0 auto;
+    width: 80%;
+}
+
+.top-table tr{
+	margin-top: 0;
+    font-size: 30px;
+    background-color: #EAEDED;
+}
+
+
+.top-table td{
+    width: 33%;
+     border: 5px solid white;
+     padding: 5px 10px;
+     text-align: center;
+	transition: color 1s;
+}
+.top-table td:hover{
+    color: white;
+/*	opacity: 0.3;*/
+    cursor: pointer;
+}
+.top-table img{
+    height: 120px;
+    width: 100px;
+	padding: 10px;
+    border-radius: 100px;
+}
+
+tr th{
+	text-align: center;
+	background-color: cornflowerblue;
+	padding: 10px;
+	color: ghostwhite;
+	font-size: 20px;
+}
+.bottom-table{
+	margin: 50px auto;
+	box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+/*    border: 10px solid black;*/
+    width: 60%;
+/*    position: absolute;*/
+    bottom: 0px;
+}
+.bottom-table tr{
+	transition: background-color 1s;
+}
+.bottom-table tr:hover{
+    background-color: #CACFD2;
+}
+.bottom-table td{
+    font-size: 20px;
+    text-align: center;
+	border: 1px solid lightblue;
+    
+}
